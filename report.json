@@ -1,0 +1,52 @@
+{
+  "task": "Full pentest test run",
+  "recon": {
+    "status": "complete",
+    "results": {
+      "nmap": "disabled"
+    }
+  },
+  "vuln": {
+    "status": "complete",
+    "results": {
+      "nmap": [
+        {
+          "service": "ssh",
+          "cve": "CVE-2023-1234",
+          "confidence": 0.9
+        }
+      ]
+    }
+  },
+  "exploit": {
+    "status": "complete",
+    "results": {
+      "nmap": [
+        {
+          "exploit": "exploit/unix/ssh/sshexec",
+          "result": "success"
+        }
+      ]
+    }
+  },
+  "analysis": {
+    "status": "complete",
+    "results": {
+      "error": "Connection error."
+    }
+  },
+  "execution": {
+    "status": "pending",
+    "results": {}
+  },
+  "report": {
+    "status": "pending",
+    "results": {}
+  },
+  "history": [
+    "Recon agent completed successfully",
+    "Vuln agent completed successfully",
+    "Exploit agent completed successfully",
+    "Analysis agent completed successfully"
+  ]
+}

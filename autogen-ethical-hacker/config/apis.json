@@ -1,0 +1,17 @@
+{
+  "groq": {
+    "api_keys": ["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"],
+    "model": "groq/gpt-oss-120b",
+    "primary": true
+  },
+  "google": {
+    "api_keys": ["AIzaSyCbIDV8wJ-3TL8BtI_HPdWVUSClBgoRszM"],
+    "model": "gemini-pro",
+    "backup": true
+  },
+  "threat_intel": {
+    "virustotal": "",
+    "alienvault": "",
+    "shodan": ""
+  }
+}

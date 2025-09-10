@@ -1,0 +1,13 @@
+{
+    "nmap_path": "nmap",
+    "masscan_path": "masscan",
+    "gobuster_path": "gobuster",
+    "sqlmap_path": "sqlmap",
+    "hydra_path": "hydra",
+    "john_path": "john",
+    "subfinder_path": "subfinder",
+    "theHarvester_path": "theHarvester",
+    "wpscan_path": "wpscan",
+    "nikto_path": "nikto",
+    "msfrpcd_path": "msfrpcd"
+}

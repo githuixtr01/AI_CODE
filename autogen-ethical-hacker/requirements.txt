@@ -1,0 +1,16 @@
+autogen[all]
+langchain
+openai
+groq
+google-genai
+python-nmap
+redis
+networkx
+matplotlib
+docker
+fastapi
+uvicorn
+pydantic
+streamlit
+pyyaml
+requests

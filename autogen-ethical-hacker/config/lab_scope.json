@@ -1,0 +1,16 @@
+{
+  "allowed_targets": [
+    "192.168.1.0/24",
+    "192.168.56.0/24",
+    "10.0.0.0/24",
+    "172.16.0.0/24"
+  ],
+  "forbidden_targets": [
+    "8.8.8.8",
+    "1.1.1.1",
+    "google.com",
+    "github.com"
+  ],
+  "max_threads": 10,
+  "timeout": 300
+}
